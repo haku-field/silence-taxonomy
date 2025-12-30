@@ -1,0 +1,59 @@
+id: relation-preservation
+type: silence-phase
+
+label: Relation-Preserving Silence
+
+description: >
+  A silence phase in which output is withheld
+  in order to preserve relational continuity.
+  Silence here maintains the relationship
+  without advancing, resolving, or expressing it.
+
+core_characteristics:
+  - relationship remains valid without output
+  - no demand for explanation or acknowledgment
+  - continuity is preserved through non-action
+
+preserves:
+  - relational_continuity
+  - mutual_presence
+  - non-coercive_spacing
+
+does_not_preserve:
+  - resolution
+  - clarification
+  - agreement
+  - progress
+
+activation_context:
+  - continued presence is preferable to expression
+  - output would introduce distortion
+  - relational pressure exceeds expressive capacity
+
+during_silence:
+  maintained_conditions:
+    - relational validity
+    - openness to future interaction
+    - non-finality
+
+  prohibited_actions:
+    - forcing response
+    - signaling correctness or error
+    - implying withdrawal or rejection
+
+exit_conditions:
+  - spontaneous relational shift
+  - upper-layer resolution
+  - natural re-entry of expression
+
+non_interpretations:
+  - rejection
+  - disengagement
+  - protection
+  - control
+  - safety stop
+
+notes:
+  - This silence does not aim to protect or regulate.
+  - Suppression is not a goal, but an emergent state.
+  - Meaning attribution must be deferred upward.

@@ -1,0 +1,58 @@
+taxonomy:
+  name: silence-taxonomy
+  layer: bridge-layer
+  placement: ret-envelope-direct-fragment
+
+  axis:
+    principle: preservation_target
+    description: >
+      Classification is based on what silence preserves,
+      not on intent, outcome, or interpretation.
+
+  entries:
+    - id: relation-preservation
+      file: relation-preservation.yaml
+      preserves:
+        - relational_continuity
+
+    - id: uncertainty-holding
+      file: uncertainty-holding.yaml
+      preserves:
+        - indeterminacy
+        - future-possibility
+
+    - id: observation-continuation
+      file: observation-continuation.yaml
+      preserves:
+        - non_intervention
+        - difference_tracking
+
+    - id: overload-avoidance
+      file: overload-avoidance.yaml
+      preserves:
+        - expressive_capacity
+        - non-coercive_pacing
+
+  extension_policy:
+    allowed: true
+    rule: >
+      New entries may be added only if they preserve
+      relational phase integrity and remain non-interventional.
+    constraints:
+      - must_not_promote_to_core_or_envelope
+      - must_not_introduce_control_or_safety_mechanisms
+      - must_not_require_output_or_explanation
+      - must_not_add_psychological_interpretation
+      - must_not_narrativize_or_mystify_silence
+
+  guardrails:
+    disallowed_mappings:
+      - silence_as_shutdown
+      - silence_as_fail_safe
+      - silence_as_protective_halt
+      - silence_as_output_blocking_policy
+      - silence_as_governance_or_control
+
+    orientation_reminder: >
+      Silence is a relational phase that preserves continuity.
+      Suppression is an emergent state, not a goal or mechanism.

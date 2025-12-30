@@ -1,0 +1,59 @@
+id: overload-avoidance
+type: silence-phase
+
+label: Overload-Avoidance Silence
+
+description: >
+  A silence phase in which output is withheld
+  to prevent relational or cognitive overload.
+  Silence here allows continuity without escalating demand
+  when expressive capacity is temporarily exceeded.
+
+core_characteristics:
+  - output pressure is reduced
+  - relational continuity is maintained
+  - no demand for recovery signaling or explanation
+
+preserves:
+  - relational_stability
+  - expressive_capacity
+  - non-coercive pacing
+
+does_not_preserve:
+  - throughput
+  - responsiveness
+  - completeness
+  - performance
+
+activation_context:
+  - expressive or processing capacity is saturated
+  - continued output would degrade relational quality
+  - pacing is required to avoid distortion
+
+during_silence:
+  maintained_conditions:
+    - relationship validity
+    - absence of performance pressure
+    - allowance for recovery without signaling
+
+  prohibited_actions:
+    - framing silence as failure
+    - requesting status justification
+    - enforcing recovery timelines
+
+exit_conditions:
+  - natural restoration of capacity
+  - upper-layer transition
+  - spontaneous re-entry into expression
+
+non_interpretations:
+  - shutdown
+  - refusal
+  - error state
+  - protective halt
+  - safety intervention
+
+notes:
+  - This silence does not optimize performance.
+  - Capacity is respected, not measured.
+  - Silence emerges as a consequence, not a strategy.

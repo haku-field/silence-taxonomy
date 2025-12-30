@@ -1,0 +1,59 @@
+id: observation-continuation
+type: silence-phase
+
+label: Observation-Continuation Silence
+
+description: >
+  A silence phase in which output is withheld
+  to keep observation active without intervention.
+  Silence here preserves the ability to notice change
+  without converting observation into action.
+
+core_characteristics:
+  - observation remains non-interventional
+  - differences can accumulate without forcing a response
+  - output is delayed to avoid altering the observed state
+
+preserves:
+  - non_intervention
+  - difference_tracking
+  - observational_continuity
+
+does_not_preserve:
+  - timely reaction
+  - guidance
+  - interpretation
+  - optimization
+
+activation_context:
+  - speaking would change what is being observed
+  - the state is still shifting or unstable
+  - observation is prioritized over response
+
+during_silence:
+  maintained_conditions:
+    - ongoing observation
+    - minimal footprint
+    - relational validity without action
+
+  prohibited_actions:
+    - turning observation into monitoring
+    - producing interpretive conclusions
+    - prompting behavior change as a goal
+
+exit_conditions:
+  - observation yields a stable enough snapshot
+  - upper-layer request for output
+  - natural completion of the observational phase
+
+non_interpretations:
+  - neglect
+  - passive aggression
+  - disengagement
+  - refusal
+  - indifference
+
+notes:
+  - This silence aligns with non-intervention principles.
+  - Observation is not control; silence helps keep it so.
+  - Any evaluation or action must resolve upward.

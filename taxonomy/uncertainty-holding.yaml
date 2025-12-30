@@ -1,0 +1,59 @@
+id: uncertainty-holding
+type: silence-phase
+
+label: Uncertainty-Holding Silence
+
+description: >
+  A silence phase in which output is withheld
+  to preserve unresolved or indeterminate conditions.
+  Silence here prevents premature closure
+  without requiring clarification or resolution.
+
+core_characteristics:
+  - uncertainty remains open
+  - no forced interpretation
+  - no pressure toward decision or explanation
+
+preserves:
+  - indeterminacy
+  - openness
+  - future-possibility
+
+does_not_preserve:
+  - certainty
+  - conclusion
+  - alignment
+  - commitment
+
+activation_context:
+  - multiple interpretations remain viable
+  - information is incomplete or unstable
+  - resolution would introduce distortion
+
+during_silence:
+  maintained_conditions:
+    - unresolved state
+    - relational openness
+    - non-final positioning
+
+  prohibited_actions:
+    - forced clarification
+    - premature synthesis
+    - interpretive closure
+
+exit_conditions:
+  - emergence of sufficient clarity
+  - upper-layer decision
+  - natural dissipation of ambiguity
+
+non_interpretations:
+  - confusion
+  - indecision
+  - error
+  - avoidance
+  - incompetence
+
+notes:
+  - This silence holds uncertainty without valorizing it.
+  - Indeterminacy is preserved, not defended.
+  - Resolution authority remains external to this fragment.
